@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Intro.js example</title>
+    <meta charset="UTF-8">
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.3.0/intro.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/4.3.0/introjs.min.css"-->
+    <script src="static/jquery/jquery-3.5.1.slim.min.js" type="text/javascript"></script>
+    <script src="static/introjs/intro.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="static/introjs/introjs.min.css" type="text/css"/>
+  </head>
+<body>
+  <h1>Intro.js example</h1>
+  <p data-step='1' data-title='Title 1' data-intro='Description 1'>Intro.js is a lightweight JavaScript library for creating step-by-step and powerful customer onboarding tours</p>
+  <a href='#' data-step='2' data-title='Title 2' data-intro='Description 2'>Example 1</a>
+  <a href='#' data-step='3' data-title='Title 3' data-intro='Description 3'>Example 2</a>
+  <a href='#' data-step='4' data-title='Title 4' data-intro='Description 4'>Example 2</a>
+  <div data-step='5' data-title='Title 5' data-intro='Description 5'>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <script>
+    introJs().start();
+  </script>
+</body>
+</html>
